@@ -1,0 +1,59 @@
+<!-- Nama : Pelle, Aaron Yerusyadai -->
+<!-- Desc : Exercise #6 (Form) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulir Exercise#6</title>
+</head>
+<body>
+    <form action="fromulir.html" method="GET">
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend>
+            <p>
+                <label for="nama">Nama :</label>
+                <input type="text" name="nama" placeholder="Nama lengkap" required>
+            </p>
+            <p>
+                <label for="alamat">Alamat :</label>
+                <input type="text" id="alamat" name="alamat" placeholder="Alamat lengkap" required>
+            </p>
+            <p>
+                <label for="pw">Password :</label>
+                <input type="password" id="pw" name="pw" placeholder="Password" required>
+            </p>
+            <p>
+                <label for="gender">Jenis kelamin :</label>
+                <label><input type="radio" name="gender" value="laki-laki">Laki - laki</label>
+                <label><input type="radio" name="gender" value="perempuan">Perempuan</label>
+            </p>
+            <p>
+                <label for="pl">Bahasa pemrograman yang dikuasai :</label>
+                <label><input type="checkbox" name="pl" id="web" value="web">WEB</label>
+                <label><input type="checkbox" name="mobile" id="mobile">MOBILE</label>
+                <label><input type="checkbox" name="desktop" id="desktop">DESKTOP</label>
+            </p>
+            <p>
+                <label for="kota">Kota asal :</label>
+                <select name="kota" id="kota">
+                    <option value="dki jakarta">DKI Jakarta</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="semarang">Semarang</option>
+                    <option value="manado">Manado</option>
+                    <option value="surabaya">Surabaya</option>
+                </select>
+            </p>
+            <p>
+                <label for="reason">Apa yang Membuat Kami Harus Memilih Anda?</label>
+                <br>
+                <textarea name="reason" id="reason" cols="45" rows="10" placeholder="Tulis jawaban Anda di sini"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Proces">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

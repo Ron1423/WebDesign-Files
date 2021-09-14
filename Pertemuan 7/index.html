@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table tag</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+            <tr bgcolor="grey">
+                <th>#</th>
+                <th>Kolom 1</th>
+                <th>Kolom 2</th>
+                <th>Kolom 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">rowspan = 2</th>
+                <td>Baris1,Kolom1</td>
+                <td colspan="2" align="center">callspan = 2</td>
+            </tr>
+            <tr>
+                <td>Baris2,Kolom1</td>
+                <td>Baris2,Kolom2</td>
+                <td>Baris2,Kolom3</td>
+            </tr>
+            <tr>
+                <th>Baris3</th>
+                <td>Baris3,Kolom1</td>
+                <td>Baris3,Kolom2</td>
+                <td>Baris3,Kolom3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
